@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .dash-container{
@@ -15,6 +16,8 @@
 }
 #first-column{
     grid-row: 1/4;
+    color: white;
+    margin-left: 40px;
     
 
 }
@@ -31,5 +34,11 @@
     background: blue;
     grid-column: 2/4;
     grid-row: 2/4;
+}
+
+#dash-icon{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
 }
 
