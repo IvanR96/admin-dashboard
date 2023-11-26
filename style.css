@@ -1,12 +1,15 @@
-*{
-    box-sizing: border-box;
-    font-family: sans-serif;
-    
 
-}
 body{
     margin: 0;
     box-sizing: border-box;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+
+}
+html{
+    height: 100vh;
+    
 }
 
 .dash-container{
@@ -81,4 +84,67 @@ a{
     display: grid;
     grid-template-rows: repeat(2, 150px);
     grid-template-columns: repeat(2, 50%);
+}
+#search{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#mag{
+    height: 35px;
+    width: 35px;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #e2e8f0;
+    font-size: 16px;
+    text-indent: 1%;
+}
+
+#notifications{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+#bell{
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+#cat{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.welcome{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    text-align: left;
+}
+
+#profile-text{
+    font-weight: bold;
+    line-height: 10px;
+    margin-top: 5px;
+}
+#profile-text h2{
+    font-size: 30px;
+}
+
+#welcome-cat{
+    width: 100px;
+    height: 100px;
 }
