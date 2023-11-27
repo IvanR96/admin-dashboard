@@ -226,3 +226,15 @@ button:hover{
     flex-direction: column;
     margin: 20px;
 }
+
+#icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    line-height: 10px;
+    cursor: pointer;
+}
+
+div #icons{
+    margin-top: 50px;
+}
