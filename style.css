@@ -221,7 +221,7 @@ button:hover{
     margin-top: -40px;
 }
 
-#super, #less, #imposs, #eaz{
+#super, #less, #imposs, #eaz, #blocker, #maker{
     display: flex;
     flex-direction: column;
     margin: 20px;
