@@ -241,3 +241,7 @@ hr{
     width: 300px;
     
 }
+
+#trending h2{
+    margin-top: -80px;
+}
